@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
-	"appid": "wx63f05d868ca735ab",
+	"appid": "touristappid",
 	"projectname": "readerAndMovie",
 	"condition": {
 		"search": {

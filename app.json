@@ -2,9 +2,25 @@
   "pages": [
     "pages/welcome/welcome",
     "pages/posts/posts",
-    "pages/post-details/post-details"
+    "pages/post-details/post-details",
+    "pages/movies/movies"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#b3d4db"
+    "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/posts/posts",
+      "text": "阅读",
+      "color": "#666",
+      "selectedColor":"#405f80",
+      "iconPath": "/images/tab/yuedu.png",
+      "selectedIconPath": "/images/tab/yuedu_hl.png"
+    },{
+      "pagePath": "pages/movies/movies",
+      "text": "电影",
+      "iconPath": "/images/tab/dianying.png",
+      "selectedIconPath": "/images/tab/dianying_hl.png"
+    }]
   }
 }

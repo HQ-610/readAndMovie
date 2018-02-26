@@ -32,7 +32,7 @@
   margin-bottom: 15rpx;
 }
 .post-content{
-  margin-left: 20rpx;
+  padding: 0 20rpx;
   font-size: 28rpx;
   color: #666;
   line-height: 40rpx;

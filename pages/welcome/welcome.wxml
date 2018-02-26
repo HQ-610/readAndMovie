@@ -1,6 +1,6 @@
 <view class = "container">
-  <image class = "user_avatar" src = "/images/avatar/1.png"></image>
-  <text class = "user_name">hello , jasmine</text>
+  <image class = "user_avatar" src = "{{userInfo.avatarUrl}}"></image>
+  <text class = "user_name">hello , {{userInfo.nickName}}</text>
   <view class = "moto_container" bindtap='ontap'>
     <text class = "moto">开启小程序之旅</text>
   </view>

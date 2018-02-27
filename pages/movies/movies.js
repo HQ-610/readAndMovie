@@ -19,6 +19,15 @@ Page({
     this.getMovieListData(comingSoonUrl, "comingSoon","即将上映");
     this.getMovieListData(top250Url, "top250","top250");
   },
+
+  onmoretap:function(event){
+    var category = event.currentTarget.dataset.category;
+    console.log(category)
+    wx.navigateTo({
+      url: 'more-movie/more-movie?category=' + category,
+    })
+  },
+
   getMovieListData: function (url, settedKey, categoryTitle){
     var that = this;
     wx.request({

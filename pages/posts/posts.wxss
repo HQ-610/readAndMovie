@@ -1,4 +1,4 @@
-@import "../post-item/post-data-template.wxss";
+@import "post-item/post-data-template.wxss";
 .container{
   background-color: #eee;
 }

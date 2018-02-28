@@ -27,6 +27,13 @@ Page({
     util.http(dataUrl, this.processDoubanData)
   },
 
+  onMovieTap: function (event) {
+    var movieId = event.currentTarget.dataset.movieid;
+    wx.navigateTo({
+      url: "../movie-detail/movie-detail?id=" + movieId
+    })
+  },
+  
   processDoubanData: function (moviesDouban){
     var movies = [];
     for (var idx in moviesDouban.subjects) {
